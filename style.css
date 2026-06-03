@@ -1,0 +1,115 @@
+body {
+ font-family: Garamond, "Times New Roman", serif;
+  line-height: 1.75;
+  margin: 0;
+  color: #000;
+  background: #fff;
+}
+
+.container {
+  max-width: 680px;
+  margin: 110px auto;
+  padding: 0 24px;
+}
+
+h1 {
+  font-family: Garamond, "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 30px;
+  margin: 0 0 14px 0;
+}
+
+h2 {
+  font-family: Garamond, "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 28px 0 10px 0;
+}
+
+.headshot {
+  float: right;
+  width: 250px;
+  height: auto;
+  margin: 0 0 20px 30px;
+  border-radius: 4px;
+}
+
+.site-footer {
+  margin-top: 60px;
+  padding-top: 18px;
+  border-top: 1px solid #000;
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+/* keep email styling consistent with site */
+.site-footer a {
+  color: #000;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin: 0 0 18px 0;
+}
+
+/* NAV */
+nav {
+  margin: 14px 0 16px 0;
+}
+
+nav a {
+  margin-right: 16px;
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* TEXT */
+p {
+  margin: 0 0 16px 0;
+  font-size: 15.5px;
+}
+
+/* HOME PAGE IMAGE */
+.header-image {
+  float: right;
+  width: 250px;
+  height: auto;
+  margin: 0 0 12px 20px;
+}
+
+
+/* OPTIONAL: prevents float weirdness after content */
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: 15.5px;
+  color: #000;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
