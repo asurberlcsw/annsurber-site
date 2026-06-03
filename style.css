@@ -159,3 +159,15 @@ nav ul {
 nav li {
   display: inline-block;
 }
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+}
