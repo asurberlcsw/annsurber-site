@@ -113,3 +113,29 @@ form {
   max-width: 600px;
   margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+
+  body {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2, h3 {
+    font-size: 22px;
+  }
+
+  .content,
+  .container {
+    max-width: 92%;
+    padding: 0 16px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
