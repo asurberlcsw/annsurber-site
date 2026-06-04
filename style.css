@@ -156,5 +156,14 @@ form {
     text-align: center;
     font-size: 16px;
   }
+
+  form {
+    max-width: 95%;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0 8px;
+  }
+}
+
 }
 
