@@ -171,18 +171,20 @@ nav a {
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
+.header-image {
+  float: right;
+  width: 250px;
+  height: auto;
+  margin: 0 0 12px 20px;
+}
 
+/* MOBILE — absolute override */
+@media (max-width: 768px) {
   .header-image {
     float: none !important;
     display: block !important;
     margin: 0 auto 18px auto !important;
     width: 85%;
     max-width: 320px;
-  }
-
-  /* ensures the paragraph starts BELOW the image cleanly */
-  .container p:first-of-type {
-    clear: both;
   }
 }
