@@ -114,15 +114,6 @@ form {
   margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-  .header-image {
-    float: none !important;
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-}
-
 @media (max-width: 768px) { 
   body {
     font-size: 19px;
@@ -179,4 +170,14 @@ nav {
 
 nav a {
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .header-image {
+    float: none !important;
+    display: block !important;
+    margin: 0 auto 16px auto !important;
+    width: 85%;
+    max-width: 320px;
+  }
 }
