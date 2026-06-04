@@ -127,9 +127,6 @@ form {
   }
 }
 
-/* MOBILE — centered image + text below */
-@media (max-width: 768px) {
-
   .header-image {
     float: none !important;
     display: block !important;
