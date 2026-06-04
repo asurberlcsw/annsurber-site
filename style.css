@@ -189,11 +189,3 @@ nav a {
   }
 }
 
-@media (max-width: 768px) {
-  .headshot {
-    float: right !important;
-    width: 130px !important;
-    height: auto !important;
-    margin: 0 0 10px 14px !important;
-  }
-}
