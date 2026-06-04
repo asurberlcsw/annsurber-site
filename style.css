@@ -172,15 +172,17 @@ nav a {
 }
 
 @media (max-width: 768px) {
-  .image-wrap {
-    text-align: center;
-  }
 
   .header-image {
     float: none !important;
-    display: inline-block;
-    margin: 0 auto 16px auto;
+    display: block !important;
+    margin: 0 auto 18px auto !important;
     width: 85%;
     max-width: 320px;
+  }
+
+  /* ensures the paragraph starts BELOW the image cleanly */
+  .container p:first-of-type {
+    clear: both;
   }
 }
