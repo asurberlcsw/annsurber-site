@@ -90,15 +90,11 @@ p {
   width: 250px;
   height: auto;
   margin: 0 0 12px 20px;
+  border-radius: 4px;
 }
 
 
-/* OPTIONAL: prevents float weirdness after content */
-.container::after {
-  content: "";
-  display: block;
-  clear: both;
-}
+
 
 input,
 textarea,
