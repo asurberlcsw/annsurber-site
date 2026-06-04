@@ -92,7 +92,6 @@ p {
   margin: 0 0 12px 20px;
 }
 
-
 /* OPTIONAL: prevents float weirdness after content */
 .container::after {
   content: "";
@@ -173,10 +172,14 @@ nav a {
 }
 
 @media (max-width: 768px) {
+  .image-wrap {
+    text-align: center;
+  }
+
   .header-image {
     float: none !important;
-    display: block !important;
-    margin: 0 auto 16px auto !important;
+    display: inline-block;
+    margin: 0 auto 16px auto;
     width: 85%;
     max-width: 320px;
   }
