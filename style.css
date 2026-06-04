@@ -142,15 +142,12 @@ form {
 
  
   nav a {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .subtitle {
     font-size: 20px;
     line-height: 1.4;
   }
- 
-p {
-  margin-bottom: 28px !important;
-}
+
 }
