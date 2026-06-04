@@ -133,16 +133,14 @@ form {
     display: block;
     margin: 0 auto;
   }
-}
+
   /* force the “depth oriented…” text to start below image */
   .intro-text {
     clear: both;
     text-align: center;
     margin-top: 0;
   }
-}
 
-@media (max-width: 768px) {
 
   nav a {
     font-size: 18px;
@@ -153,8 +151,6 @@ form {
     line-height: 1.4;
   }
 
-}
-@media (max-width: 768px) {
   p {
     margin-bottom: 22px;
   }
