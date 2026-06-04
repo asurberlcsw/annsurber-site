@@ -116,11 +116,10 @@ form {
 
 @media (max-width: 768px) {
   .header-image {
-    float: none;
-    display: block;
-    margin: 0 auto 24px auto;
-    width: 85%;
-    max-width: 320px;
+    float: none !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
 
