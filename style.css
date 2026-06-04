@@ -114,7 +114,15 @@ form {
   margin: 0 auto;
 }
 
-
+@media (max-width: 768px) {
+  .home-image {
+    float: none;
+    display: block;
+    margin: 0 auto 24px auto;
+    width: 85%;
+    max-width: 320px;
+  }
+}
 
 @media (max-width: 768px) { 
   body {
@@ -122,11 +130,6 @@ form {
     line-height: 1.6;
   }
 
-   .header-image {
-    float: none;
-    display: block;
-    margin: 0 auto 20px auto;
-  }
  
   nav ul {
     gap: 8px;
