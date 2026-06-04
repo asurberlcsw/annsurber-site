@@ -114,13 +114,20 @@ form {
   margin: 0 auto;
 }
 
-@media (max-width: 768px) {
 
+
+@media (max-width: 768px) { 
   body {
     font-size: 19px;
     line-height: 1.6;
   }
 
+   .header-image {
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+ 
   nav ul {
     gap: 8px;
     font-size: 18px;
