@@ -145,7 +145,6 @@ form {
     line-height: 1.4;
   }
 
- @media (max-width: 768px) {
   nav {
     display: flex;
     justify-content: space-between;
@@ -157,6 +156,5 @@ form {
     text-align: center;
     font-size: 16px;
   }
-}
 }
 
