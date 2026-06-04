@@ -163,7 +163,13 @@ form {
     margin: 0 auto;
     padding: 0 8px;
   }
-}
+ 
+  input,
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
 
 }
 
