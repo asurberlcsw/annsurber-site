@@ -154,3 +154,10 @@ form {
   }
 
 }
+
+@media (max-width: 768px) {
+  p {
+    margin-bottom: 26px;
+    line-height: 1.7;
+  }
+}
