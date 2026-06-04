@@ -26,14 +26,6 @@ h2 {
   margin: 28px 0 10px 0;
 }
 
-.headshot {
-  float: right;
-  width: 250px;
-  height: auto;
-  margin: 0 0 20px 30px;
-  border-radius: 4px;
-}
-
 .site-footer {
   margin-top: 60px;
   padding-top: 18px;
@@ -84,16 +76,15 @@ p {
   font-size: 15.5px;
 }
 
-/* HOME PAGE IMAGE */
-.header-image {
+/* BASE IMAGE FLOAT */
+.header-image,
+.headshot {
   float: right;
   width: 250px;
   height: auto;
   margin: 0 0 12px 20px;
   border-radius: 4px;
 }
-
-
 
 
 input,
