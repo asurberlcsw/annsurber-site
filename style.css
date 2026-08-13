@@ -109,11 +109,13 @@ form {
     line-height: 1.6;
   }
 
-  .headshot {
+ .headshot {
     float: none;
     display: block;
+    clear: both;
     width: 100%;
     max-width: 300px;
+    height: auto;
     margin: 20px auto;
   }
  
